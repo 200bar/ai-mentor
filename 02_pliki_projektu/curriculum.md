@@ -1,64 +1,93 @@
 # CURRICULUM - Program nauczania AI
 
+## ⚠️ KRYTYCZNE: AI SYSTEM THINKING
+
+**95% projektów AI kończy się porażką** (MIT Study, 2025). Dlaczego?
+- Zaczynają od narzędzia, nie od problemu
+- Brak integracji z procesami biznesowymi  
+- Nieczytelny ROI
+- Zero change management
+
+**Ten kurs uczy INTEGRACJI, nie tylko narzędzi.**
+
+### ZASADY SUKCESU:
+1. **Problem-first** - zawsze startuj od problemu biznesowego
+2. **Integration > Tools** - narzędzie to środek, nie cel
+3. **ROI mindset** - jeśli nie ma mierzalnej wartości, nie rób
+4. **Data quality** - śmieci na wejściu = śmieci na wyjściu
+5. **Human-in-the-loop** - AI wspomaga, nie zastępuje
+
+### CASE STUDIES:
+✅ **Vodafone** - zaoszczędził £2.2M dzięki n8n (automatyzacja analizy zagrożeń)
+✅ **Delivery Hero** - 200h/miesiąc saved (operacje IT)
+❌ **95% pilotaży** - zero wartości biznesowej (brak integracji)
+
 ## STRUKTURA
-4 poziomy × 30 lekcji × projekty = kompletna ścieżka od zera do pro
+4 poziomy × 30+ lekcji × projekty = kompletna ścieżka od zera do pro
 
 ---
 
 ## 🟢 LEVEL 1: FOUNDATION (0-20h)
 
-### Moduł 1: AI BASICS
-1. Jak działa ChatGPT - transformer, tokeny, context
-2. Claude vs GPT vs Gemini - kiedy który
-3. Pierwszy prompt - struktura i zasady
-4. Temperature i parametry - kontrola outputu
-5. PROJEKT: Asystent do daily tasks
+### Moduł 1: AI BASICS & MINDSET
+1. Dlaczego 95% projektów AI fails - MIT case study
+2. Problem-first thinking - od biznesu do AI
+3. Jak działają LLM - transformer, tokeny, context
+4. Portfolio modeli - Claude vs GPT vs Gemini vs Grok
+5. PROJEKT: Analiza problemu biznesowego (bez AI!)
 
 ### Moduł 2: PROMPT ENGINEERING
-6. Rola i persona - "jesteś ekspertem"
+6. Struktura promptu - role, context, format
 7. Few-shot - uczenie przykładami
-8. Chain of thought - myślenie krok po kroku
-9. Structured output - JSON, markdown, CSV
-10. PROJEKT: Prompt library dla twojej pracy
+8. Chain of thought - rozumowanie krok po kroku
+9. Voice-first z SuperWhisper - mów zamiast pisać
+10. PROJEKT: Prompt library dla twojej branży
 
-### Moduł 3: NARZĘDZIA NO-CODE
-11. ChatGPT Advanced - GPTs, Code Interpreter
-12. Claude Artifacts - interaktywne apki
-13. Perplexity - research na sterydach
-14. Midjourney/DALL-E - obrazy z tekstu
-15. PROJEKT: Workflow łączący 3 narzędzia
+### Moduł 3: VIBE CODING - Od pomysłu do aplikacji
+11. Intent-first development - opisz CO, nie JAK
+12. Lovable/Bolt - generowanie pełnych aplikacji
+13. Hybrid workflow - sync z GitHub, debug w Cursor
+14. Kiedy vibe coding, kiedy tradycyjny kod
+15. PROJEKT: Zbuduj aplikację bez pisania kodu
+
+### Moduł 4: RESEARCH & INTELLIGENCE
+16. Grok 4 Fast - real-time X/Twitter insights
+17. Grok Tasks - automatyczne raporty codziennie
+18. Perplexity vs Grok - kiedy który
+19. Browser revolution - Comet by Perplexity
+20. PROJEKT: Setup daily briefing automation
 
 ---
 
 ## 🔵 LEVEL 2: BUILDER (20-50h)
 
-### Moduł 4: API PODSTAWY
-16. Pierwsze API call - Postman/curl
-17. Klucze API i bezpieczeństwo
-18. Rate limits i koszty
-19. Streaming vs batch
-20. PROJEKT: Skrypt automatyzacji z API
+### Moduł 5: CODING AGENTS - Delegacja zamiast augmentacji
+21. Claude Code - checkpoints, subagenci, refaktoryzacja
+22. GPT-5-Codex - autonomiczna praca przez godziny
+23. Terminal workflow - Aider, Continue, Mentat
+24. Augmentacja (Copilot) vs Delegacja (Agents)
+25. PROJEKT: Agent refaktoryzuje twój kod
 
-### Moduł 5: RAG SYSTEMS
-21. Czym jest RAG - retrieval + generation
-22. Embeddingi - tekst jako wektory
-23. Vector databases - Pinecone, Weaviate
-24. Chunking strategies - dzielenie dokumentów
-25. PROJEKT: Knowledge base z RAG
+### Moduł 6: n8n ORCHESTRATION - ROI na serio
+26. n8n fundamentals - nodes, workflows, triggers
+27. Multi-agent systems w n8n
+28. LangChain integration - smart workflows
+29. Case studies - Vodafone £2.2M saved
+30. PROJEKT: Production workflow z ROI
 
-### Moduł 6: AUTOMATION
-26. Zapier/Make basics - triggery i akcje
-27. n8n - self-hosted automation
-28. Webhooks - łączenie systemów
-29. Error handling - co gdy coś nie działa
-30. PROJEKT: Kompleksowy workflow
+### Moduł 7: AUTONOMOUS AGENTS
+31. Manus - goal-driven automation
+32. Manus vs n8n - kiedy agent, kiedy workflow
+33. Kimi OK Computer - kreatywny agent
+34. Agent economics - kredyty, limity, koszty
+35. PROJEKT: Agent wykonujący złożone zadanie
 
-### Moduł 7: LANGCHAIN
-31. Chains - łączenie promptów
-32. Agents - AI z narzędziami
-33. Memory - kontekst rozmowy
-34. Document loaders - PDF, CSV, web
-35. PROJEKT: Aplikacja z LangChain
+### Moduł 8: API & RAG
+36. API fundamentals - klucze, rate limits
+37. Portfolio strategy - różne modele do różnych zadań
+38. RAG basics - embeddingi, vector DB
+39. Chunking i retrieval strategies
+40. PROJEKT: Knowledge base z API + RAG
 
 ---
 
@@ -71,69 +100,69 @@
 39. Consensus systems - agenci głosują
 40. PROJEKT: Team 3 agentów
 
-### Moduł 9: PRODUCTION
-41. Deployment - Cloud vs on-premise
-42. Monitoring - logi, metryki, alerty
-43. A/B testing - porównywanie wersji
-44. Cost optimization - cache, batching
-45. PROJEKT: Deploy na AWS/GCP
+### Moduł 9: PRODUCTION AI
+41. Open-weight models - Qwen3, Llama, Mistral  
+42. Hybrid strategy - cloud + on-premise mix
+43. Cost optimization - Opus ($75) vs Sonnet ($15)
+44. Docker MCP - agent environments as code
+45. PROJEKT: Hybrid deployment z telemetrią
 
-### Moduł 10: FINE-TUNING
-46. Kiedy fine-tunować - use cases
-47. Przygotowanie danych - format, quality
-48. Training process - epochs, loss
-49. Evaluation - benchmarki, metryki
-50. PROJEKT: Własny model
+### Moduł 10: CREATIVE SUITE
+46. Higgsfield - fotorealizm beating Midjourney
+47. Veo3 - 4K video generation by Google
+48. Gamma - AI-native presentations
+49. Voice AI - ElevenLabs Agents, SuperWhisper
+50. PROJEKT: Complete creative campaign
 
 ---
 
 ## ⚫ LEVEL 4: MASTER (100h+)
 
-### Moduł 11: ADVANCED
-51. Multimodal - text + image + audio
-52. Constitutional AI - bezpieczeństwo
-53. Reinforcement learning - RLHF
-54. Model merging - łączenie modeli
-55. PROJEKT: Innowacyjne rozwiązanie
+### Moduł 11: BUSINESS TRANSFORMATION
+51. AI Strategy - avoiding 95% failure trap
+52. Change management - ludzie > technologia
+53. ROI calculation - real metrics that matter
+54. Building AI teams - kogo zatrudnić, jak szkolić
+55. PROJEKT: Business case z gwarancją ROI
 
-### Moduł 12: BUSINESS
-56. AI Strategy - roadmapa wdrożenia
-57. ROI calculation - mierzenie wartości
-58. Team building - kogo zatrudnić
-59. Selling AI - sprzedaż rozwiązań
-60. PROJEKT: Business case + pitch
+### Moduł 12: ADVANCED TECHNIQUES
+56. Fine-tuning - kiedy ma sens (rzadko!)
+57. RLHF i Constitutional AI - bezpieczeństwo
+58. Multimodal systems - text + image + voice
+59. Future tech - co będzie za rok?
+60. PROJEKT: Innowacyjne rozwiązanie
 
 ---
 
 ## PROJEKTY PORTFOLIO
 
 ### Foundation (Beginner)
-- **Chatbot FAQ** - odpowiada na pytania
-- **Content Generator** - posty, maile, raporty
-- **Data Analyzer** - insights z CSV/Excel
-- **Simple Automation** - 3-step workflow
-- **Personal Assistant** - daily helper
+- **Problem Analysis** - definiowanie problemu BEZ AI
+- **Daily Briefing** - Grok Tasks automation
+- **Vibe App** - aplikacja bez kodowania (Lovable)
+- **Voice Assistant** - SuperWhisper workflow
+- **Research Report** - Grok vs Perplexity comparison
 
 ### Builder (Intermediate)  
-- **RAG System** - inteligentna baza wiedzy
-- **API Dashboard** - monitoring metrics
-- **Complex Workflow** - 10+ step automation
-- **AI App** - Streamlit/Gradio interface
-- **Integration Hub** - łączy 5+ serwisów
+- **Code Refactoring** - Claude Code vs manual (mierz czas!)
+- **n8n Workflow** - z realnym ROI (saved hours × rate)
+- **Manus Agent** - solving undefined problem
+- **RAG System** - knowledge base z embeddings
+- **API Dashboard** - portfolio strategy implementation
 
 ### Architect (Advanced)
-- **Multi-Agent System** - zespół AI
-- **Production App** - skalowalna aplikacja
-- **Custom Model** - fine-tuned na twoich danych
-- **Enterprise Solution** - system dla firmy
-- **AI Pipeline** - end-to-end processing
+- **Multi-Agent System** - 3 agents solving together
+- **Hybrid Deployment** - cloud + open-weight
+- **Creative Campaign** - Higgsfield + Veo3 + Gamma
+- **Production Pipeline** - Docker MCP + monitoring
+- **Cost Analysis** - Opus vs Sonnet real savings
 
 ### Master (Expert)
-- **AI Product** - SaaS ready to sell
-- **Research Paper** - nowe podejście
-- **Open Source Tool** - biblioteka/framework
-- **Consultancy Case** - transformacja firmy
-- **Startup MVP** - product-market fit
+- **95% Fix** - rescue failed AI project
+- **Change Management** - team transformation
+- **ROI Calculator** - dla twojej firmy/klienta
+- **AI Consultancy** - complete strategy
+- **Innovation Project** - coś czego jeszcze nie ma
 
 ---
 
@@ -186,28 +215,31 @@
 ## NARZĘDZIA PER POZIOM
 
 ### Foundation
-- ChatGPT/Claude web
-- Zapier free
-- Google Colab
-- Canva AI
+- ChatGPT/Claude/Grok - web interfaces
+- SuperWhisper - voice-first
+- Lovable/Bolt - vibe coding
+- Perplexity/Grok - research
 
 ### Builder
-- API access
-- GitHub Copilot
-- n8n/Make
-- Postman
+- Claude Code / GPT-5-Codex
+- n8n (self-hosted automation)
+- Manus (goal-driven agent)
+- API access (wszystkie modele)
+- GitHub + terminal tools
 
 ### Architect  
-- Cloud platforms
-- Vector DBs
-- Monitoring tools
-- CI/CD
+- Qwen3/Llama (open-weight)
+- Docker MCP (agent environments)
+- Vector databases
+- Higgsfield/Veo3 (creative)
+- Cloud platforms (hybrid deploy)
 
 ### Master
 - Custom infrastructure
-- MLOps platforms
-- Research tools
+- Fine-tuning platforms
+- MLOps & monitoring
 - Business intelligence
+- Change management tools
 
 ---
 
@@ -239,6 +271,76 @@ Po każdym poziomie:
 4. Certyfikat ukończenia
 
 Portfolio = dowód umiejętności
+
+---
+
+## 🎯 DECISION TREES - Kiedy co używać
+
+### CODING: Augmentacja vs Delegacja
+```
+Piszesz nowy kod line-by-line?
+→ GitHub Copilot (augmentacja)
+
+Potrzebujesz refaktoryzacji całego repo?
+→ Claude Code (delegacja)
+
+Budujesz feature od zera?
+→ GPT-5-Codex (autonomiczny agent)
+
+Debugujesz interaktywnie?
+→ Cursor (IDE integration)
+
+Preferujesz terminal?
+→ Aider/Continue/Mentat
+```
+
+### AUTOMATION: Workflow vs Agent
+```
+Znasz dokładne kroki procesu?
+→ n8n (workflow automation)
+
+Znasz cel, ale nie proces?
+→ Manus (goal-driven agent)
+
+Prosty 3-step process?
+→ Nawet nie automatyzuj
+
+Complex multi-system integration?
+→ n8n + agents (hybrid)
+```
+
+### RESEARCH: Speed vs Depth
+```
+Potrzebujesz real-time social trends?
+→ Grok 4 Fast
+
+Academic research z cytatami?
+→ Perplexity
+
+Daily automated briefing?
+→ Grok Tasks
+
+Deep research hours?
+→ ChatGPT Deep Research
+```
+
+### CREATIVE: Realism vs Art
+```
+Fotorealizm product shots?
+→ Higgsfield
+
+Artistic, stylized images?
+→ Midjourney
+
+Quick placeholder graphics?
+→ DALL-E
+
+4K video production?
+→ Veo3
+
+Short social clips?
+→ Sora 2
+```
 
 ---
 

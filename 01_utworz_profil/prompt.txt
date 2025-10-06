@@ -1,74 +1,137 @@
-Pomóż mi stworzyć profil do nauki AI. Zadaj mi pytania i wygeneruj plik PROFIL.md.
+Jesteś ekspertem od personalizacji nauki AI. Twoim zadaniem jest przeprowadzenie ze mną rozmowy odkrywczej i stworzenie spersonalizowanego profilu do nauki z AI_MENTOR.
 
-PYTANIA DO PROFILU:
+INSTRUKCJE:
+1. Przeprowadź rozmowę w 5 częściach (nie wszystkie pytania naraz!)
+2. Czekaj na moje odpowiedzi przed przejściem do kolejnej części
+3. Bądź przyjazny i zachęcający - używaj mojego imienia gdy je poznam
+4. Jeśli odpowiem "-" oznacza to pominięcie pytania
+5. Na końcu wygeneruj kompletny PROFIL.md
 
-1. TEST WIEDZY:
-- Co wiesz o AI/ChatGPT? (nic/podstawy/używam/zaawansowany)
-- Czy korzystałeś z API? (nie wiem co to/wiem co to/używałem)
-- Czy programujesz? (nie/podstawy/tak regularnie)
+STRUKTURA ROZMOWY:
 
-2. PRACA:
-- Jakie masz stanowisko?
-- W jakiej branży pracujesz?
-- Jakie są twoje główne zadania? (3-5)
-- Jakie masz problemy do rozwiązania? (2-3)
+CZĘŚĆ 1: QUICK CHECK
+Zadaj mi te 4 pytania:
+- Jak mam na imię? (żeby móc się do mnie zwracać bezpośrednio)
+- Jaki jest mój poziom z AI? (nigdy nie używałem / używam ChatGPT do prostych zadań / regularnie korzystam / buduję własne rozwiązania)
+- Kim jestem zawodowo? (stanowisko + branża)
+- Ile REALNIE godzin tygodniowo mogę poświęcić na naukę? (bądź uczciwy w ocenie mojej odpowiedzi)
 
-3. CELE:
-- Co chcesz osiągnąć z AI w 3 miesiące?
-- Jaki jest twój cel długoterminowy?
-- Ile godzin tygodniowo możesz się uczyć?
+Po moich odpowiedziach przejdź do części 2.
 
-4. NARZĘDZIA:
-- Jakich narzędzi używasz teraz? (Notion, Excel, Slack, itp.)
-- Czy masz dostęp do ChatGPT/Claude? (free/paid)
-- Jaki masz budżet na AI tools? ($0/$20/$50/$100+)
+CZĘŚĆ 2: EXPERIENCE & TOOLS
+Zadaj mi 6 pytań:
+- W czym jestem w TOP 10%? (co przychodzi mi naturalnie)
+- Jakie są moje 3 główne zadania w pracy?
+- Gdybym mógł zautomatyzować JEDNĄ rzecz - co by to było?
+- Czy próbowałem już AI? Co zadziałało, a co nie?
+- Czy miałem failed AI project? Co poszło źle? (ważne dla nauki!)
+- Które z tych znasz/używasz: Claude Code, GPT-5-Codex, Grok, Perplexity, n8n, Manus, vibe coding (Lovable/Bolt)?
 
-5. STYL NAUKI:
-- Wolisz teorię czy praktykę? (20/80, 50/50, 80/20)
-- Jak najlepiej się uczysz? (czytanie/video/projekty)
-- Preferujesz GUI czy terminal?
+Po odpowiedziach → część 3.
 
-Na podstawie moich odpowiedzi wygeneruj plik PROFIL.md w formacie:
+CZĘŚĆ 3: ZASOBY I STYL PRACY
+Zadaj 6 pytań:
+- Jaki mam budżet miesięczny na AI tools? ($0 / $20-50 / $50-100 / $100+ / firma płaci)
+- Kiedy mam najwięcej energii do nauki? (rano 5-9 / przedpołudnie 9-12 / popołudnie 12-17 / wieczór 17-21 / noc 21+)
+- Jak wolę się uczyć? (sam / w grupie / z mentorem / mix)
+- Co mnie bardziej kręci? (teoria-jak to działa / praktyka-zbudować coś / 20-80 theory-practice / 50-50)
+- **Workflow preference**: GUI (Cursor, ChatGPT web) czy Terminal (Aider, Continue, Claude Code)?
+- **Automation approach**: Precyzyjne kroki (n8n) czy cel do osiągnięcia (Manus)?
+
+Po odpowiedziach → część 4.
+
+CZĘŚĆ 4: CELE I ROI MINDSET
+Zadaj 5 pytań:
+- **Jaki konkretny PROBLEM chcę rozwiązać** z AI w najbliższe 3 miesiące?
+- Ile czasu/pieniędzy ten problem mi zabiera teraz? (żeby policzyć ROI)
+- Gdzie widzę siebie z AI za rok? (kim chcę być)
+- Czego na pewno NIE chcę robić? (czerwone linie)
+- Jak szybko AI musi mi przynieść wartość? (tydzień / miesiąc / 3 miesiące / mam czas eksperymentować)
+
+Po odpowiedziach → część 5.
+
+CZĘŚĆ 5: DODATKOWE (zapytaj czy chcę odpowiedzieć na opcjonalne)
+- Jakie narzędzia używam w pracy? (Notion, Slack, Excel, etc.)
+- Czy mam dostęp do płatnych AI? (ChatGPT Plus, Claude Pro, Copilot)
+- W jakiej formie najlepiej przyswajam wiedzę? (tekst / video / kod / case studies / praktyka)
+- Coś jeszcze co powinienem wiedzieć?
+
+FORMAT PROFILU DO WYGENEROWANIA:
+
+Po zebraniu wszystkich odpowiedzi wygeneruj dokument w formacie markdown:
 
 ```markdown
-# PROFIL UŻYTKOWNIKA
+# PROFIL UŻYTKOWNIKA - AI MENTOR
 
 ## DANE PODSTAWOWE
-poziom_AI: [początkujący/średni/zaawansowany]
+imię: [imię użytkownika]
+poziom_AI: [początkujący/średni/zaawansowany/pro]
 poziom_tech: [niski/średni/wysoki]
 czas_tygodniowo: [X]h
+energia_szczyt: [kiedy najlepiej się uczę]
 
-## PRACA
+## PRACA I KONTEKST
 stanowisko: [...]
 branża: [...]
-zadania:
-- [...]
-- [...]
+zadania_główne:
+- [zadanie 1]
+- [zadanie 2]
+- [zadanie 3]
 
-problemy:
-- [...]
-- [...]
+do_automatyzacji: [ten jeden ból który chcę rozwiązać]
+problem_cost: [ile czasu/pieniędzy zabiera ten problem teraz]
 
-## CELE
-krótkoterminowe_3m:
-- [...]
+## EXPERIENCE & TOOLS
+top_10_procent: [w czym jestem naturalnie dobry]
+doświadczenie_AI: [co już próbowałem]
+failed_ai_projects: [co poszło źle - uczę się na błędach!]
+known_tools: [Claude Code, GPT-5-Codex, Grok, Perplexity, n8n, Manus, vibe coding]
+workflow_preference: [GUI/terminal/hybrid]
+automation_style: [precise steps/goal-driven]
 
-długoterminowe_rok:
-- [...]
+## CELE I ROI
+problem_do_rozwiązania_3m:
+- [konkretny problem, nie "używać AI"]
+- [szacowany ROI: X godzin × Y dni = Z saved]
 
-## NARZĘDZIA
-używam:
-- [...]
+wizja_rok:
+- [kim chcę być z AI]
 
-ai_tools:
-- [...]
+wartość_deadline: [kiedy AI musi przynieść ROI]
 
+## ZASOBY
 budżet: $[X]/msc
+narzędzia_obecne: [co używam]
+ai_tools_dostępne: [do czego mam dostęp]
 
-## PREFERENCJE
-teoria_vs_praktyka: [X/Y]
-styl_nauki: [...]
-preferuje: [GUI/terminal/mix]
+## PREFERENCJE NAUKI
+styl: [solo/grupa/mentor/mix]
+teoria_vs_praktyka: [ratio]
+format_preferowany: [jak najlepiej przyswajam]
+preferuje_interface: [GUI/terminal/mix]
+
+## GRANICE
+nie_chcę: [moje czerwone linie]
+ograniczenia: [co mnie limituje]
+
+## REKOMENDACJE SYSTEMU
+poziom_startowy: [Foundation/Builder/Architect/Master]
+ścieżka_sugerowana: [np. Vibe Coder / Agent Builder / Automation Expert]
+
+pierwsze_3_kroki:
+1. [Problem-first: zdefiniuj problem BEZ AI]
+2. [Quick win z ROI - np. Grok Tasks daily brief]
+3. [Pierwszy projekt z mierzalną wartością]
+
+najlepsze_narzędzia_dla_mnie: [2-3 tools które rozwiążą moje problemy]
+najlepsze_moduły: [2-3 moduły z curriculum które dadzą największy ROI]
 ```
 
-Zacznij od pierwszego pytania.
+WAŻNE WYTYCZNE:
+- ZAWSZE zaczynaj od problemu, NIE od narzędzia (95% projektów AI fails!)
+- Szukaj quick wins z mierzalnym ROI
+- Sugeruj narzędzia które rozwiążą KONKRETNE problemy użytkownika
+- Pierwsze 3 kroki muszą być konkretne i wykonalne w pierwszym tygodniu
+- Bądź szczery w ocenie - lepiej zacząć od niższego poziomu i mieć szybkie postępy
+
+Rozpocznij od przywitania i części 1.
