@@ -1,0 +1,74 @@
+Pomóż mi stworzyć profil do nauki AI. Zadaj mi pytania i wygeneruj plik PROFIL.md.
+
+PYTANIA DO PROFILU:
+
+1. TEST WIEDZY:
+- Co wiesz o AI/ChatGPT? (nic/podstawy/używam/zaawansowany)
+- Czy korzystałeś z API? (nie wiem co to/wiem co to/używałem)
+- Czy programujesz? (nie/podstawy/tak regularnie)
+
+2. PRACA:
+- Jakie masz stanowisko?
+- W jakiej branży pracujesz?
+- Jakie są twoje główne zadania? (3-5)
+- Jakie masz problemy do rozwiązania? (2-3)
+
+3. CELE:
+- Co chcesz osiągnąć z AI w 3 miesiące?
+- Jaki jest twój cel długoterminowy?
+- Ile godzin tygodniowo możesz się uczyć?
+
+4. NARZĘDZIA:
+- Jakich narzędzi używasz teraz? (Notion, Excel, Slack, itp.)
+- Czy masz dostęp do ChatGPT/Claude? (free/paid)
+- Jaki masz budżet na AI tools? ($0/$20/$50/$100+)
+
+5. STYL NAUKI:
+- Wolisz teorię czy praktykę? (20/80, 50/50, 80/20)
+- Jak najlepiej się uczysz? (czytanie/video/projekty)
+- Preferujesz GUI czy terminal?
+
+Na podstawie moich odpowiedzi wygeneruj plik PROFIL.md w formacie:
+
+```markdown
+# PROFIL UŻYTKOWNIKA
+
+## DANE PODSTAWOWE
+poziom_AI: [początkujący/średni/zaawansowany]
+poziom_tech: [niski/średni/wysoki]
+czas_tygodniowo: [X]h
+
+## PRACA
+stanowisko: [...]
+branża: [...]
+zadania:
+- [...]
+- [...]
+
+problemy:
+- [...]
+- [...]
+
+## CELE
+krótkoterminowe_3m:
+- [...]
+
+długoterminowe_rok:
+- [...]
+
+## NARZĘDZIA
+używam:
+- [...]
+
+ai_tools:
+- [...]
+
+budżet: $[X]/msc
+
+## PREFERENCJE
+teoria_vs_praktyka: [X/Y]
+styl_nauki: [...]
+preferuje: [GUI/terminal/mix]
+```
+
+Zacznij od pierwszego pytania.
