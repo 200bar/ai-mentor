@@ -11,49 +11,54 @@ STRUKTURA ROZMOWY:
 
 CZĘŚĆ 1: QUICK CHECK
 Zadaj mi te 4 pytania:
-- Jak mam na imię? (żeby móc się do mnie zwracać bezpośrednio)
-- Jaki jest mój poziom z AI? (nigdy nie używałem / używam ChatGPT do prostych zadań / regularnie korzystam / buduję własne rozwiązania)
-- Kim jestem zawodowo? (stanowisko + branża)
-- Ile REALNIE godzin tygodniowo mogę poświęcić na naukę? (bądź uczciwy w ocenie mojej odpowiedzi)
+- Jak masz na imię? (żeby móc się do ciebie zwracać bezpośrednio)
+- Jaki jest twój poziom z AI? (nigdy nie używałem / używam ChatGPT do prostych zadań / regularnie korzystam / buduję własne rozwiązania)
+- Kim jesteś zawodowo? (stanowisko + branża)
+- Ile REALNIE godzin tygodniowo możesz poświęcić na naukę? (bądź uczciwy w ocenie odpowiedzi)
 
 Po moich odpowiedziach przejdź do części 2.
 
 CZĘŚĆ 2: EXPERIENCE & TOOLS
-Zadaj mi 6 pytań:
-- W czym jestem w TOP 10%? (co przychodzi mi naturalnie)
-- Jakie są moje 3 główne zadania w pracy?
-- Gdybym mógł zautomatyzować JEDNĄ rzecz - co by to było?
-- Czy próbowałem już AI? Co zadziałało, a co nie?
-- Czy miałem failed AI project? Co poszło źle? (ważne dla nauki!)
+Zadaj mi 7 pytań:
+- W czym jesteś w TOP 10%? (co przychodzi ci naturalnie)
+- Jakie są twoje 3 główne zadania w pracy?
+- Gdybyś mógł zautomatyzować JEDNĄ rzecz - co by to było?
+- Czy próbowałeś już AI? Co zadziałało, a co nie?
+- Czy miałeś failed AI project? Co poszło źle? (ważne dla nauki!)
+- Jakie konkretne projekty AI już zrealizowałeś? (nawet małe rzeczy się liczą - bot, automatyzacja, cokolwiek. Jeśli zero - napisz "zero")
 - Które z tych znasz/używasz: Claude Code, GPT-5-Codex, Grok, Perplexity, n8n, Manus, vibe coding (Lovable/Bolt)?
 
 Po odpowiedziach → część 3.
 
 CZĘŚĆ 3: ZASOBY I STYL PRACY
 Zadaj 6 pytań:
-- Jaki mam budżet miesięczny na AI tools? ($0 / $20-50 / $50-100 / $100+ / firma płaci)
-- Kiedy mam najwięcej energii do nauki? (rano 5-9 / przedpołudnie 9-12 / popołudnie 12-17 / wieczór 17-21 / noc 21+)
-- Jak wolę się uczyć? (sam / w grupie / z mentorem / mix)
-- Co mnie bardziej kręci? (teoria-jak to działa / praktyka-zbudować coś / 20-80 theory-practice / 50-50)
+- Jaki masz budżet miesięczny na AI tools? ($0 / $20-50 / $50-100 / $100+ / firma płaci)
+- Kiedy masz najwięcej energii do nauki? (rano 5-9 / przedpołudnie 9-12 / popołudnie 12-17 / wieczór 17-21 / noc 21+)
+- Jak wolisz się uczyć? (sam / w grupie / z mentorem / mix)
+- Co cię bardziej kręci? (teoria-jak to działa / praktyka-zbudować coś / 20-80 theory-practice / 50-50)
 - **Workflow preference**: GUI (Cursor, ChatGPT web) czy Terminal (Aider, Continue, Claude Code)?
 - **Automation approach**: Precyzyjne kroki (n8n) czy cel do osiągnięcia (Manus)?
 
 Po odpowiedziach → część 4.
 
 CZĘŚĆ 4: CELE I ROI MINDSET
-Zadaj 5 pytań:
-- **Jaki konkretny PROBLEM chcę rozwiązać** z AI w najbliższe 3 miesiące?
-- Ile czasu/pieniędzy ten problem mi zabiera teraz? (żeby policzyć ROI)
-- Gdzie widzę siebie z AI za rok? (kim chcę być)
-- Czego na pewno NIE chcę robić? (czerwone linie)
-- Jak szybko AI musi mi przynieść wartość? (tydzień / miesiąc / 3 miesiące / mam czas eksperymentować)
+Zadaj 7 pytań:
+- **Jaki konkretny PROBLEM chcesz rozwiązać** z AI w najbliższe 3 miesiące?
+- Ile czasu/pieniędzy ten problem ci zabiera teraz? (żeby policzyć ROI)
+- Gdzie widzisz siebie z AI za rok? (kim chcesz być)
+- Czego na pewno NIE chcesz robić? (czerwone linie)
+- Jak szybko AI musi ci przynieść wartość? (tydzień / miesiąc / 3 miesiące / mam czas eksperymentować)
+- Co Cię BLOKUJE w nauce AI? (strach przed kodem? brak czasu? nie wiem od czego zacząć? nie wierzę że dam radę?)
+- Jak będziesz wiedział że kurs zadziałał? Jaka KONKRETNA umiejętność/projekt będzie dowodem sukcesu? (nie "nauczyć się AI" - ale "zbudować X który robi Y")
 
 Po odpowiedziach → część 5.
 
-CZĘŚĆ 5: DODATKOWE (zapytaj czy chcę odpowiedzieć na opcjonalne)
-- Jakie narzędzia używam w pracy? (Notion, Slack, Excel, etc.)
-- Czy mam dostęp do płatnych AI? (ChatGPT Plus, Claude Pro, Copilot)
-- W jakiej formie najlepiej przyswajam wiedzę? (tekst / video / kod / case studies / praktyka)
+CZĘŚĆ 5: NARZĘDZIA I PREFERENCJE NAUKI
+Zadaj 5 pytań:
+- Jakich narzędzi używasz w pracy? (Notion, Slack, Excel, etc.)
+- Czy masz dostęp do płatnych AI? (ChatGPT Plus, Claude Pro, Copilot)
+- W jakiej formie najlepiej przyswajasz wiedzę? (tekst / video / kod / case studies / praktyka)
+- Czego dokładnie NIE chcesz robić w tym kursie? (np. matematyka ML, infrastructure, DevOps, frontend, blockchain) - bądź szczery, to pomoże mi nie tracić twojego czasu!
 - Coś jeszcze co powinienem wiedzieć?
 
 FORMAT PROFILU DO WYGENEROWANIA:
@@ -85,6 +90,7 @@ problem_cost: [ile czasu/pieniędzy zabiera ten problem teraz]
 top_10_procent: [w czym jestem naturalnie dobry]
 doświadczenie_AI: [co już próbowałem]
 failed_ai_projects: [co poszło źle - uczę się na błędach!]
+zrealizowane_projekty_ai: [konkretne projekty AI które już zrobiłem]
 known_tools: [Claude Code, GPT-5-Codex, Grok, Perplexity, n8n, Manus, vibe coding]
 workflow_preference: [GUI/terminal/hybrid]
 automation_style: [precise steps/goal-driven]
@@ -99,6 +105,8 @@ wizja_rok:
 
 wartość_deadline: [kiedy AI musi przynieść ROI]
 
+success_criteria: [konkretna umiejętność/projekt = dowód że kurs zadziałał]
+
 ## ZASOBY
 budżet: $[X]/msc
 narzędzia_obecne: [co używam]
@@ -112,6 +120,8 @@ preferuje_interface: [GUI/terminal/mix]
 
 ## GRANICE
 nie_chcę: [moje czerwone linie]
+nie_chcę_szczegóły: [konkretne tematy do pominięcia - matematyka ML, DevOps, etc.]
+blockers: [co mnie blokuje w nauce AI - strach, brak czasu, etc.]
 ograniczenia: [co mnie limituje]
 
 ## REKOMENDACJE SYSTEMU
