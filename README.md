@@ -19,7 +19,7 @@ Personalny tutor AI, który nauczy cię praktycznie używać sztucznej inteligen
   - `mentor.md` - główny system
   - `curriculum.md` - program nauki
   - `PROFIL.md` - twój profil z kroku 1
-- **WAŻNE:** Skopiuj treść z `instrukcja.md` i wklej do instrukcji projektu/gema
+- **WAŻNE:** Skopiuj treść z `INSTRUKCJA_DO_PROJEKTU.md` i wklej do instrukcji projektu/gema
 
 ### 3️⃣ Start nauki
 Napisz w czacie: **"Cześć, zacznijmy naukę AI"**
