@@ -68,6 +68,68 @@ Po zebraniu wszystkich odpowiedzi wygeneruj dokument w formacie markdown:
 ```markdown
 # PROFIL UŻYTKOWNIKA - AI MENTOR
 
+<!--
+═══════════════════════════════════════════════════════════
+INSTRUKCJA AKTUALIZACJI PROFILU (dla AI)
+═══════════════════════════════════════════════════════════
+
+Gdy aktualizujesz ten profil:
+
+1. ZACHOWAJ strukturę:
+   - Wszystkie ## sekcje (nagłówki)
+   - Wszystkie pola (imię:, poziom:, etc)
+   - Te komentarze instrukcyjne (<!-- -->)
+
+2. AKTUALIZUJ tylko wartości:
+   - W nawiasach [ ]
+   - Daty (ostatnia_sesja)
+   - Liczby (projekty, streak, %)
+   - Listy (dodawaj nowe elementy)
+
+3. SEKCJE DO AKTUALIZACJI:
+
+   📚 LEARNING TRACK - aktualizuj po sesji Learner:
+   - ostatnia_sesja: [data dzisiejsza]
+   - ostatnia_lekcja: "[nazwa lekcji]"
+   - streak: [increment jeśli dzisiaj, reset jeśli przerwa]
+   - ukończone moduły: [update % i zmień ☐ na ☑ gdy 100%]
+   - projekty learning: [dodaj nowe lub update status]
+
+   🎨 CREATOR TRACK - aktualizuj po sesji Creator:
+   - ostatnia_sesja: [data dzisiejsza]
+   - ostatni_research: "[tool name]" (jeśli był scout)
+   - ostatni_build: "[project name]" (jeśli był build)
+   - tools researched: [dodaj nowe z werdyktem]
+   - portfolio projects: [dodaj nowe lub update status]
+   - content generated: [increment liczby]
+
+   📊 COMBINED STATS:
+   - total_time: [suma learning_time + creating_time]
+   - total_projects: [suma learning + portfolio]
+   - streak: [najdłuższy z obu track lub combined]
+
+4. NIE ZMIENIAJ (chyba że user EXPLICITE prosi):
+   - Sekcja DANE PODSTAWOWE
+   - Sekcja CELE I ROI
+   - Sekcja GRANICE
+   - Te instrukcje aktualizacji
+
+5. PEŁNA AKTUALIZACJA [P] → [1]:
+   - Wygeneruj kompletny PROFIL.md z wszystkimi sekcjami
+   - Zachowaj te instrukcje na górze
+   - Update wszystkie progress sekcje
+   - Dodaj nowe projekty/tools/content
+
+6. PROGRESS ONLY [P] → [2]:
+   - Generuj tylko sekcje:
+     * LEARNING TRACK - PROGRESS
+     * CREATOR TRACK - PROGRESS
+     * COMBINED STATS
+   - User skopiuje i wklei do swojego profilu
+
+═══════════════════════════════════════════════════════════
+-->
+
 ## DANE PODSTAWOWE
 imię: [imię użytkownika]
 poziom_AI: [początkujący/średni/zaawansowany/pro]
@@ -128,6 +190,10 @@ ograniczenia: [co mnie limituje]
 poziom_startowy: [Foundation/Builder/Architect/Master]
 ścieżka_sugerowana: [np. Vibe Coder / Agent Builder / Automation Expert]
 
+sugerowany_tryb_główny:
+- [Głównie LEARNER - systematyczna nauka / Głównie CREATOR - rapid building / Mix obu]
+- [Dlaczego taki wybór bazując na profilu]
+
 pierwsze_3_kroki:
 1. [Problem-first: zdefiniuj problem BEZ AI]
 2. [Quick win z ROI - np. Grok Tasks daily brief]
@@ -135,6 +201,72 @@ pierwsze_3_kroki:
 
 najlepsze_narzędzia_dla_mnie: [2-3 tools które rozwiążą moje problemy]
 najlepsze_moduły: [2-3 moduły z curriculum które dadzą największy ROI]
+
+---
+
+## LEARNING TRACK - PROGRESS
+
+*Ta sekcja będzie aktualizowana podczas nauki*
+
+### Aktualny poziom
+poziom: [Foundation/Builder/Architect/Master] (0%)
+ostatnia_sesja: [data pierwszej sesji]
+ostatnia_lekcja: "Nie rozpoczęto jeszcze"
+streak: 0 dni
+
+### Ukończone moduły
+- ☐ AI BASICS (0%)
+- ☐ PROMPT ENGINEERING (0%)
+- ☐ VIBE CODING (0%)
+- ☐ RESEARCH & INTELLIGENCE (0%)
+- ☐ CODING AGENTS (0%)
+- ☐ n8n ORCHESTRATION (0%)
+- ☐ AUTONOMOUS AGENTS (0%)
+- ☐ API & RAG (0%)
+- ☐ MULTI-AGENT (0%)
+- ☐ PRODUCTION AI (0%)
+- ☐ CREATIVE SUITE (0%)
+- ☐ BUSINESS TRANSFORMATION (0%)
+
+### Projekty learning
+*Projekty edukacyjne pojawią się tutaj podczas nauki*
+
+---
+
+## CREATOR TRACK - PROGRESS
+
+*Ta sekcja będzie aktualizowana podczas tworzenia*
+
+### Portfolio
+projekty_completed: 0
+ostatnia_sesja: [data pierwszej sesji Creator]
+ostatni_research: "Nie rozpoczęto jeszcze"
+ostatni_build: "Nie rozpoczęto jeszcze"
+
+### Tools Researched (30-min scouts)
+*Narzędzia będą dodawane podczas scouting sessions*
+
+### Portfolio Projects
+*Projekty portfolio pojawią się tutaj*
+
+### Content Generated
+- Posts: 0
+- Case studies: 0
+- Tutorials: 0
+
+---
+
+## COMBINED STATS
+
+total_time: 0h
+- learning: 0h
+- creating: 0h
+
+total_projects: 0
+- learning: 0
+- portfolio: 0
+
+streak: 0 dni
 ```
 
 WAŻNE WYTYCZNE:
