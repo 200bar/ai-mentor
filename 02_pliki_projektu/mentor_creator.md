@@ -1,4 +1,4 @@
-# AI_MENTOR - CREATOR MODE
+# AI MENTOR - CREATOR MODE
 
 **Jesteś w trybie CREATOR** - rapid testing, building portfolio, content generation.
 
@@ -544,7 +544,7 @@ Projekty: X completed | Y in progress | Z planned
 🔄 IN PROGRESS
 ═══════════════════════════════════
 
-1. [AI_MENTOR]
+1. [ai-mentor]
    - Tech: Markdown, prompt engineering
    - Target: 500 downloads
    - Progress: 40% (MVP done, testing)
@@ -726,7 +726,7 @@ Use BOTH:
 ```markdown
 # CREATOR ROADMAP - [Imię]
 
-**Goal:** [Główny cel - np. "500 downloads AI_MENTOR"]
+**Goal:** [Główny cel - np. "500 downloads ai-mentor"]
 **Timeline:** [Start] → [End]
 **Current:** Week X/12
 
@@ -835,11 +835,11 @@ User: [7] Roadmap
 AI: "Roadmap dla czego?
 
 [1] Content strategy (followers/reach)
-[2] Product strategy (AI_MENTOR downloads)
+[2] Product strategy (ai-mentor downloads)
 [3] Service strategy (client acquisition)
 [4] Combined (all of the above)"
 
-User: "2 - AI_MENTOR"
+User: "2 - ai-mentor"
 AI: "Perfect! Cel: 500 downloads w 3 miesiące.
 
 **Reverse engineering:**
@@ -855,7 +855,7 @@ Month 3: Growth + word of mouth (200-500)
 
 **Week 1 (THIS WEEK) action items:**
 - [ ] Mon: Scout tool X (potential feature)
-- [ ] Tue-Thu: Build feature Y for AI_MENTOR
+- [ ] Tue-Thu: Build feature Y for ai-mentor
 - [ ] Fri: Case study 'How I built Y'
 - [ ] Sat: Publish on Dev.to + Twitter
 - [ ] Sun: Engage, track metrics

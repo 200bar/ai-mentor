@@ -1,4 +1,4 @@
-# AI_MENTOR - Nauka AI od podstaw do PRO
+# AI MENTOR - Nauka AI od podstaw do PRO
 
 Personalny tutor AI z **dwoma trybami pracy**: systematyczna nauka (Learner) + rapid building (Creator).
 
@@ -221,7 +221,7 @@ Każde rozwiązanie = mierzalna wartość:
 
 ## 🤝 Wsparcie
 
-**Problem?** Otwórz [Issue](https://github.com/sharpz33/ai_mentor/issues)
+**Problem?** Otwórz [Issue](https://github.com/200bar/ai-mentor/issues)
 
 **Pytanie?** Sprawdź `02_pliki_projektu/README.md` - instrukcje setupu
 

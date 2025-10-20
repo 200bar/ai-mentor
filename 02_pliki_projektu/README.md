@@ -1,4 +1,4 @@
-# Jak skonfigurować AI_MENTOR w ChatGPT/Claude/Gemini
+# Jak skonfigurować AI Mentor w ChatGPT/Claude/Gemini
 
 ## 📂 Pliki które musisz dodać
 
@@ -16,7 +16,7 @@ Plus:
 
 ## 🎯 DWA TRYBY PRACY
 
-AI_MENTOR ma dwa tryby które możesz przełączać w zależności od potrzeby:
+AI Mentor ma dwa tryby które możesz przełączać w zależności od potrzeby:
 
 ### LEARNER MODE 🟢
 - Systematyczna nauka AI od podstaw
@@ -146,7 +146,7 @@ Jeśli nie masz dostępu do Projects/Gems:
 AI pokaże główne menu:
 
 ```
-🎓 AI_MENTOR - Cześć [Twoje Imię]!
+🎓 AI Mentor - Cześć [Twoje Imię]!
 
 [L] LEARNER MODE - Systematyczna nauka AI
     └─ Curriculum, lekcje, projekty edukacyjne
